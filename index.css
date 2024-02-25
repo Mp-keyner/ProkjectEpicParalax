@@ -5,6 +5,12 @@
     list-style: none;
     font-family: "OpenSans,sans-serif";
 }
+body{
+    background-color: #333;
+}
+img{
+    width: 40pc;
+}
 :root{
     --main-primary: #f2c82d;
     --fondo: #1b1c1a
