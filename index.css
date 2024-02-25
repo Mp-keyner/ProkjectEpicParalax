@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "OpenSans,sans-serif";
+}
+:root{
+    --main-primary: #f2c82d;
+    --fondo: #1b1c1a
+}
+@font-face {
+    font-family: "OpenSans,sans-serif";
+    src: url('./fonts/834e3616d9e57f3f027e96394f43efa0.woff');
+}
+header nav {
+    background-color: var(--fondo);
+    height: 3pc;
+    display: flex;
+    align-items: center;
+    font-weight: 100;
+    overflow: hidden;
+    justify-content: space-between;
+}
+ol{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 19pc;
+    /* background-color: red; */
+}
+ol li:nth-child(3) a p{
+    color: #fff;
+    font-size: 0.7pc;
+}
+ol li:nth-child(3){
+    position: relative;
+    height: 3pc;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+nav img{
+    width: 2.5pc;
+}
+.Barra{
+    background-color: var(--main-primary);
+    height: 0.4pc;
+    width: 9.4pc;
+    position: absolute;
+    bottom: -24px;
+    transition: all ease-in-out .3s;
+}
+ol li:nth-child(3):hover .Barra{
+    bottom: 0px;
+}
+.btnHeader{
+    background-color: var(--main-primary);
+    height: 3pc;
+    display: flex;
+    align-items: center;
+    font-size: 0.5pc;
+    width: 9.4pc;
+    justify-content: center;
+    color: var(--fondo);
+}
